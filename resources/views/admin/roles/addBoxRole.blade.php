@@ -17,7 +17,7 @@
                 <li>
                     <div class="form-group clearfix">
                         <div class="icheck-primary d-inline">
-                            <input type="checkbox"  name="permissions[]" value="admin.' {{$child}} '"  id="{{$value->getName() . $key}}" class="{{$parent_class}}">
+                            <input type="checkbox"  name="permissions[]" value="admin.{{$child}}"  id="{{$value->getName() . $key}}" class="{{$parent_class}}">
                             <label  for="{{$value->getName() . $key }}" dir="ltr"></label>
                         </div>
                         <label class="title_lable" for="{{$value->getName() . $key }}">
